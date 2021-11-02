@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Audiowide&family=Expletus+Sans&family=Lato:ital,wght@1,300;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Daniel's Keycode Generator</title>
+</head>
+
+<body>
+
+    <div id="welcome">
+<h1>Hello Human.</h1>
+<h2>Press any key to activate Keycode Generator 9000.</h2>
+    </div>
+
+    <div id="generator">
+    <H1>Keycode Generator 9000</H1>
+    <p id="number"></p>
+
+    <div id="boxContainer">
+        <div class="box">
+            <div class="description">
+                <p>event.key</p>
+            </div>
+            <div class="data">
+                <p id="key"></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="description">
+                <p>event.location</p>
+            </div>
+            <div class="data">
+                <p id="location"></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="description">
+                <p>event.which</p>
+            </div>
+            <div class="data">
+                <p id="which"></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="description">
+                <p>event.code</p>
+            </div>
+            <div class="data">
+                <p id="code"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
